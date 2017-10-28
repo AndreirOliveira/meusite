@@ -215,14 +215,37 @@ img{
 	color:#fff;
 }
 
-.produtos_lista img{
+.portfolio_lista img{
 	margin: 0 auto;
 }
-.portifolio_lista div:last-of-type{
+.portfolio_lista div:last-of-type{
 	margin-top:15px;
 }
-.portifolio_lista div:first-of-type{
+.portfolio_lista div:first-of-type{
 	margin-bottom: 15px;
+}
+
+.quote_clientes{
+	padding: 60px 0; /*espaçamento top, bottom e 0 direita, esquerda*/
+	max-width: 460px;
+	margin: 0 auto; /*centralizar*/
+	border-left: none;
+}
+
+.quote_clientes p{
+	text-align: center;
+	font font-family: Georgia;
+	font-size: 18px;
+	line-height: 25px;
+	font-style: italic;
+	margin-bottom: 20px;	
+}
+
+.quote_clientes cite{
+	font-size: 18px;
+	font-weight: bold;
+	float:right;
+	font-style: normal;
 }
 
  /*Qualidade*/
